@@ -11,12 +11,12 @@
 - `npm run build`
 - `npm install --save-dev prettier tslint tslint-config-prettier`
 - `npm install --save-dev jest ts-jest @types/jest`
-- ``
-- ``
-- ``
-- ``
-- ``
-- ``
+- `git add -A && git commit -m "Setup Package"`
+- `git push`
+- `npm login`
+- `npm publish`
+- `npm version patch`
+- `npm publish`
 - ``
 
 # https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c
